@@ -1,0 +1,1 @@
+setInterval(document.getElementById("Block").style.animation = "Move 2s linear infinite normal", 100);

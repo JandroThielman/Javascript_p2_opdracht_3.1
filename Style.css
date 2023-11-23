@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(33, 33, 33);
+    color: blue;
+}
+
+#Block{
+    margin-top: 43vh;
+    width: 150px;
+    height: 150px;
+    background-color: red;
+    position: relative;
+}
+
+@keyframes Move {
+    0% {left: 1%;}
+    50% {left: 89%;}
+    100% {left: 1%}
+  }
