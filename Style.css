@@ -1,20 +1,9 @@
-*{
-    margin: 0;
-    padding: 0;
-    background-color: rgb(33, 33, 33);
-    color: blue;
+img{
+    width: 20vw;
 }
 
-#Block{
-    margin-top: 43vh;
-    width: 150px;
-    height: 150px;
-    background-color: red;
-    position: relative;
+body{
+    background-color: rgb(37, 37, 37);
+    color: white;
+    text-align: center;
 }
-
-@keyframes Move {
-    0% {left: 1%;}
-    50% {left: 89%;}
-    100% {left: 1%}
-  }
