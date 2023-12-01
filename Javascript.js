@@ -1,10 +1,10 @@
-const winkelmandje = ["Bananen", "Whiskey", "Chips", "Bonen", "Aardappelen"];
+const tech = ["PlayStation", "Xbox", "PC"];
 
 let text = "";
-for (let i = 1; i < winkelmandje.length; i++) {
-  text += winkelmandje[i];
+for (let i = 0; i < tech.length;  i++) {
+  text += tech[i] + "<br>";
 }
 
-document.getElementById("j").innerHTML = "Er zitten " + winkelmandje.length + " producten in uw winkelmand.";
+document.getElementById("j").innerHTML = "Er zitten " + tech.length + " producten in uw winkelmand.";
 
-document.getElementById("a").innerHTML = "Uw producten zijn: " + text + ".";
+document.getElementById("a").innerHTML = "Uw producten zijn: <br>" + text;
